@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Creations by Ella</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Add Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Sweet Creations by Ella</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cakes">Cakes</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Sweet Creations by Ella</h2>
+        <p>We create delicious and beautiful cakes, cupcakes, and packages for all occasions.</p>
+    </section>
+
+    <section id="cakes">
+        <h2>Our Cake</h2>
+        <div class="carousel">
+            <div class="carousel-track">
+                <img src="images/cake1.jpg" alt="Cake 1">
+                <img src="images/cake2.jpg" alt="Cake 2">
+                <img src="images/cake3.jpg" alt="Cake 3">
+                <img src="images/cake4.jpg" alt="Cake 4">
+                <img src="images/cake5.jpg" alt="Cake 5">
+                <img src="images/cake6.jpg" alt="Cake 6">
+                <img src="images/cake7.jpg" alt="Cake 7">
+            </div>
+            <button class="carousel-button prev">&lt;</button>
+            <button class="carousel-button next">&gt;</button>
+        </div>
+    </section>
+
+    <section id="packages">
+        <h2>Our Packages</h2>
+        <div class="carousel">
+            <div class="carousel-track">
+                <img src="images/package1.jpg" alt="Package 1">
+                <img src="images/package2.jpg" alt="Package 2">
+                <img src="images/package3.jpg" alt="Package 3">
+                <img src="images/package4.jpg" alt="Package 3">
+                <img src="images/package5.jpg" alt="Package 3">
+            </div>
+            <button class="carousel-button prev">&lt;</button>
+            <button class="carousel-button next">&gt;</button>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Check out some of our creations below:</p>
+        <div class="gallery">
+            <img src="images/cake1.jpg" alt="Cake 1">
+            <img src="images/cake2.jpg" alt="Cake 2">
+            <img src="images/cake3.jpg" alt="Cupcake 1">
+            <img src="images/cake4.jpg" alt="Cupcake 2">
+            <img src="images/cake5.jpg" alt="Cupcake 2">
+            <img src="images/cake6.jpg" alt="Cupcake 2">
+            <img src="images/cake7.jpg" alt="Cupcake 2">
+            <img src="images/package1.jpg" alt="Package 1">
+            <img src="images/package2.jpg" alt="Package 2">
+            <img src="images/package3.jpg" alt="Package 2">
+            <img src="images/package4.jpg" alt="Package 2">
+            <img src="images/package5.jpg" alt="Package 2">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" onclick="sendEmail()">Send Message</button>
+        </form>
+
+        <div class="social-media">
+            <h3>Follow Us</h3>
+            <a href="https://www.instagram.com/sweetcreationsby.ella/" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61567155387212" target="_blank" class="social-icon">
+                <i class="fab fa-facebook"></i> Facebook
+            </a>
+        </div>
+
+        <div class="map">
+            <h3>Our Location</h3>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.552698540511!2d124.63362079518146!3d8.44550814875422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32ff8d6163d3dceb%3A0x426df645499c4d77!2sSweet%20Creations%20by%20Ella!5e0!3m2!1sen!2sph!4v1745292589089!5m2!1sen!2sph" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sweet Creations by Ella. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
